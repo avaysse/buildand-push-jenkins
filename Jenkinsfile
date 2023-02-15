@@ -19,7 +19,7 @@ node {
 
     stage('Push') {
        docker.withRegistry('https://index.docker.io/v1/' , 'hub_docker_id') {
-              img.push 'latest'
+              img.push 'latest2'
               img.push()
           }
     }
